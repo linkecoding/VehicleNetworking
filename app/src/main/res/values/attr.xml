@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="micon" format="reference"></attr>
+    <attr name="mcolor" format="color"></attr>
+    <attr name="mtext" format="string"></attr>
+    <attr name="mtext_size" format="dimension"></attr>
+
+    <declare-styleable name="ChangeColorIconWithText">
+        <attr name="micon"></attr>
+        <attr name="mcolor"></attr>
+        <attr name="mtext"></attr>
+        <attr name="mtext_size"></attr>
+    </declare-styleable>
+
+    <!-- 设置旋转菜单对应的第一张图片 -->
+    <declare-styleable name="RoundSpinView">
+        <attr name="menuStart" format="reference" />
+    </declare-styleable>
+
+    <!--动态显示油量-->
+    <declare-styleable name="WaveView">
+        <attr name="above_wave_color" format="color"/>
+        <attr name="blow_wave_color" format="color"/>
+        <attr name="progress" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="Themes">
+        <attr name="waveViewStyle" format="reference"/>
+    </declare-styleable>
+</resources>

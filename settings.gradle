@@ -1,0 +1,1 @@
+include ':app', ':libzxing', ':SMSSDK-2.0.2', ':SMSSDKGUI-2.0.2', 'weizhang'

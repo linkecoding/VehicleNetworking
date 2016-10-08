@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.codekong.vehiclenetworking.activity.CarMessageMore">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="2dp"
+                android:textSize="15dp"
+                android:textColor="@color/green"
+                android:text="@string/car_brand" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="2dp"
+                android:textSize="15dp"
+                android:textColor="@color/green"
+                android:text="@string/car_type"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="2dp"
+                android:textColor="@color/green"
+                android:textSize="15dp"
+                android:text="@string/car_num"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="2dp"
+                android:textColor="@color/green"
+                android:textSize="15dp"
+                android:text="@string/car_engine_num"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="2dp"
+                android:textSize="15dp"
+                android:textColor="@color/green"
+                android:text="@string/car_level"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="2dp"
+                android:textSize="15dp"
+                android:textColor="@color/green"
+                android:text="@string/car_mileage"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="2dp"
+                android:textSize="15dp"
+                android:textColor="@color/green"
+                android:text="@string/car_gasnum"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="2dp"
+                android:textSize="15dp"
+                android:textColor="@color/green"
+                android:text="@string/car_engine_ok"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="2dp"
+                android:textSize="15dp"
+                android:textColor="@color/green"
+                android:text="@string/car_transmission_ok"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:textSize="15dp"
+                android:textColor="@color/green"
+                android:text="@string/car_light_ok"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="40dp">
+            <TextView
+                android:id="@+id/car_brand"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:paddingBottom="2dp"
+                android:text="car_brand" />
+
+            <TextView
+                android:id="@+id/car_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="2dp"
+                android:textSize="15dp"
+                android:text="car_type" />
+
+            <TextView
+                android:id="@+id/car_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:paddingBottom="2dp"
+                android:text="car_num" />
+
+            <TextView
+                android:id="@+id/car_engine_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="2dp"
+                android:textSize="15dp"
+                android:text="car_engine_num" />
+
+            <TextView
+                android:id="@+id/car_level"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="2dp"
+                android:textSize="15dp"
+                android:text="car_level" />
+            <TextView
+                android:id="@+id/car_mileage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="2dp"
+                android:textSize="15dp"
+                android:text="car_mileage" />
+            <TextView
+                android:id="@+id/car_gasnum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="2dp"
+                android:textSize="15dp"
+                android:text="car_gasnum" />
+            <TextView
+                android:id="@+id/car_engine_ok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="2dp"
+                android:textSize="15dp"
+                android:text="car_engine_ok" />
+            <TextView
+                android:id="@+id/car_transmission_ok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="2dp"
+                android:textSize="15dp"
+                android:text="car_transmission_ok" />
+            <TextView
+                android:id="@+id/car_light_ok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:textSize="15dp"
+                android:text="car_light_ok" />
+
+        </LinearLayout>
+
+    </LinearLayout>

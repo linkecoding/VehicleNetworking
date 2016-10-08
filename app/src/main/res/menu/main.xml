@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <item
+        android:id="@+id/action_group_chat"
+        android:icon="@mipmap/ic_search_grey600_24dp"
+        android:title="@string/menu_group_chat"/>
+    <item
+        android:id="@+id/action_scan_music"
+        android:icon="@mipmap/ic_audiotrack_grey600_24dp"
+        android:title="扫描音乐"/>
+    <item
+        android:id="@+id/action_scan"
+        android:icon="@mipmap/ic_fullscreen_grey600_24dp"
+        android:title="@string/menu_scan"/>
+    <item
+        android:id="@+id/action_feedback"
+        android:icon="@mipmap/ic_mail_grey600_24dp"
+        android:title="@string/menu_feedback"/>
+</menu>

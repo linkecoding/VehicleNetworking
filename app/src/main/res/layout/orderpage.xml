@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ebebeb">
+
+    <TextView
+        android:id="@+id/all_order"
+        android:drawableLeft="@mipmap/ic_view_headline_grey600_36dp"
+        android:drawablePadding="@dimen/page_drawable_padding"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/page_item_height"
+        android:text="所有订单"
+        android:gravity="left|center"
+        android:paddingLeft="@dimen/page_item_padding_left"
+        android:layout_marginTop="@dimen/page_margin_top"
+        android:onClick="changePage"
+        android:clickable="true"
+        android:background="@drawable/bg_selector"/>
+
+        <TextView
+            android:id="@+id/finish_order"
+            android:drawableLeft="@mipmap/ic_list_grey600_36dp"
+            android:layout_marginTop="20dp"
+            android:drawablePadding="@dimen/page_drawable_padding"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/page_item_height"
+            android:text="已完成订单"
+            android:gravity="left|center"
+            android:paddingLeft="@dimen/page_item_padding_left"
+            android:onClick="changePage"
+            android:clickable="true"
+            android:background="@drawable/bg_selector"/>
+    <TextView
+        android:id="@+id/reserve_order"
+        android:drawableLeft="@mipmap/ic_subject_grey600_36dp"
+        android:layout_marginTop="20dp"
+        android:drawablePadding="@dimen/page_drawable_padding"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/page_item_height"
+        android:text="预约订单"
+        android:gravity="left|center"
+        android:paddingLeft="@dimen/page_item_padding_left"
+        android:onClick="changePage"
+        android:clickable="true"
+        android:background="@drawable/bg_selector"/>
+</LinearLayout>

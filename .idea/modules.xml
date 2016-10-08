@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SMSSDK-2.0.2/SMSSDK-2.0.2.iml" filepath="$PROJECT_DIR$/SMSSDK-2.0.2/SMSSDK-2.0.2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SMSSDKGUI-2.0.2/SMSSDKGUI-2.0.2.iml" filepath="$PROJECT_DIR$/SMSSDKGUI-2.0.2/SMSSDKGUI-2.0.2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/VehicleNetworking.iml" filepath="$PROJECT_DIR$/VehicleNetworking.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libzxing/libzxing.iml" filepath="$PROJECT_DIR$/libzxing/libzxing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/weizhang/weizhang.iml" filepath="$PROJECT_DIR$/weizhang/weizhang.iml" />
+    </modules>
+  </component>
+</project>

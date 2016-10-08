@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:wave="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5aa9f9" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="汽车动态信息"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <com.codekong.vehiclenetworking.view.WaterWaveView
+        android:id="@+id/wave_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="40dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout"
+        android:layout_marginTop="425dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:text="里程数"
+            android:textColor="@android:color/white"
+            android:textSize="13sp" />
+        <TextView
+            android:id="@+id/car_mileage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="60dp"
+            android:text="1234"
+            android:textColor="@android:color/white"
+            android:textSize="13sp" />
+
+        <View
+            android:id="@+id/viewline1"
+            android:layout_width="1dp"
+            android:layout_height="35dp"
+            android:layout_centerInParent="true"
+            android:background="@android:color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/viewline1"
+            android:layout_marginLeft="40dp"
+            android:gravity="center_vertical"
+            android:text="发动机"
+            android:textColor="@android:color/white"
+            android:textSize="13sp" />
+        <TextView
+            android:id="@+id/car_engine_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/viewline1"
+            android:layout_marginLeft="120dp"
+            android:gravity="center_vertical"
+            android:text="正常"
+            android:textColor="@android:color/white"
+            android:textSize="13sp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="470dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:text="变速器"
+            android:textColor="@android:color/white"
+            android:textSize="13sp" />
+        <TextView
+            android:id="@+id/car_transmission_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="60dp"
+            android:text="正常"
+            android:textColor="@android:color/white"
+            android:textSize="13sp" />
+
+        <View
+            android:id="@+id/viewline2"
+            android:layout_width="1dp"
+            android:layout_height="35dp"
+            android:layout_centerInParent="true"
+            android:background="@android:color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/viewline2"
+            android:layout_marginLeft="40dp"
+            android:gravity="center_vertical"
+            android:text="车灯"
+            android:textColor="@android:color/white"
+            android:textSize="13sp" />
+        <TextView
+            android:id="@+id/car_light_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="120dp"
+            android:layout_toRightOf="@id/viewline2"
+            android:gravity="center_vertical"
+            android:text="正常"
+            android:textColor="@android:color/white"
+            android:textSize="13sp" />
+
+    </RelativeLayout>
+</RelativeLayout>

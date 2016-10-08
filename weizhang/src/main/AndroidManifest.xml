@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.codekong.weizhang">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:supportsRtl="true">
+        <activity android:name=".activity.TrafficViolationActivity"></activity>
+        <activity android:name=".activity.ShortNameList"></activity>
+        <activity android:name=".activity.ProvinceList"></activity>
+        <activity android:name=".activity.CityList"></activity>
+        <activity android:name=".activity.WeizhangResult"></activity>
+        <!-- 交通违章Service Start -->
+        <service android:name="com.cheshouye.api.client.WeizhangIntentService" />
+        <!-- 交通违章Service End -->
+
+    </application>
+
+</manifest>

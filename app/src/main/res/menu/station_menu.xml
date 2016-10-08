@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/common_map"
+        app:showAsAction="never"
+        android:icon="@mipmap/menu_feedback_icon"
+        android:title="普通地图" />
+    <item
+        android:id="@+id/site_map"
+        app:showAsAction="never"
+        android:icon="@mipmap/menu_feedback_icon"
+        android:title="卫星地图" />
+    <item
+        android:id="@+id/traffic_map"
+        app:showAsAction="never"
+        android:icon="@mipmap/menu_feedback_icon"
+        android:title="交通地图(off)"/>
+    <item
+        android:id="@+id/mode_normal"
+        app:showAsAction="never"
+        android:icon="@mipmap/menu_feedback_icon"
+        android:title="普通模式"/>
+    <item
+        android:id="@+id/mode_compass"
+        app:showAsAction="never"
+        android:icon="@mipmap/menu_feedback_icon"
+        android:title="罗盘模式"/>
+    <item
+        android:id="@+id/show_station"
+        app:showAsAction="never"
+        android:icon="@mipmap/menu_feedback_icon"
+        android:title="加油站"/>
+    <item
+        android:id="@+id/start_navi"
+        app:showAsAction="never"
+        android:icon="@mipmap/menu_feedback_icon"
+        android:title="导航"/>
+</menu>
